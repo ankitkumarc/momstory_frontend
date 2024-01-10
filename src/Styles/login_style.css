@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    /* display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px; */
+}
+
+.heading {
+    color: black;
+    padding-right: 14rem;
+    font-weight: normal;
+}
+
+/* 
+p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+} */
+
+span {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+input {
+    border: 2px solid rgb(25, 24, 24);
+}
+
+.login {
+
+    font-weight: bold;
+}
+
+.button-login {
+    width: 300px;
+    border-radius: 1.5625rem;
+    border: 1px solid rgb(246, 65, 108);
+    background-color: rgb(246, 65, 108);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    margin-bottom: 0.625rem;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.form-login {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 8px;
+    height: auto;
+    text-align: center;
+}
+
+.input-login {
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 10px;
+    margin: 8px 0;
+    width: 300px;
+}
+
+.container-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    height: 575px;
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    /* margin: 40px; */
+    margin: auto;
+    padding: 20px;
+    width: 750px;
+    margin-top: 5%;
+}
+
+.form-container {
+    top: 0;
+    height: 100%;
+}
+
+.log-in-container {
+    left: 0;
+    height: 75vh;
+    width: 50%;
+    z-index: 2;
+}
+
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(246, 65, 108);
+    /* display: none; */
+}
+
+.overlay-container img {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    top: 20%;
+    height: 60%;
+    width: 100%;
+    border: 1px solid rgb(246, 65, 108);
+
+    border-radius: 10px;
+}
+
+.social-container {
+    margin: 0.3125rem 0;
+}
+
+.social-container a {
+    border: 1px solid #f9f1f1;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.loginButton {
+    width: 300px;
+    padding: 10px 22px;
+    border-radius: 1.5625rem;
+    color: white;
+    background-color: #FF4B2B;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.facebook {
+    background-color: #3568ea;
+}
+
+.line {
+    background-color: #423f3f;
+    padding: 0.5px;
+    width: 350px;
+    /* margin: auto; */
+    /* width: 100%; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 540px) {
+
+    .button-login {
+        width: 200px;
+        border-radius: 1.5625rem;
+        border: 1px solid rgb(246, 65, 108);
+        background-color: rgb(246, 65, 108);
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        margin-bottom: 0.625rem;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+    }
+
+    .form-login {
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 8px;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .input-login {
+        background-color: white;
+        border-radius: 15px;
+        padding: 8px 10px;
+        margin: 8px 0;
+        width: 260px;
+    }
+
+    .container-form {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        position: relative;
+        overflow: hidden;
+        width: 300px;
+        /* max-width: 100%; */
+        height: 565px;
+        padding: 10px;
+        margin: auto;
+
+        margin-top: 10%;
+    }
+
+    .form-container {
+        top: 0;
+        height: 100%;
+    }
+
+    .log-in-container {
+        left: 0;
+        height: vh;
+        width: 100%;
+        z-index: 2;
+    }
+
+
+    .overlay-container {
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        display: block;
+    }
+
+    .overlay-container img {
+        display: block;
+    }
+
+    .social-container {
+        margin: 0.3125rem 0;
+    }
+
+    .social-container a {
+        border: 1px solid #f9f1f1;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .heading {
+        color: black;
+        padding-right: 11rem;
+        font-weight: normal;
+    }
+
+    .loginButton {
+        width: 260px;
+        padding: 10px 22px;
+        border-radius: 1.5625rem;
+        color: white;
+        background-color: #FF4B2B;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .facebook {
+        background-color: #3568ea;
+    }
+
+    .line {
+        background-color: #423f3f;
+        padding: 0.5px;
+        width: 290px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+}

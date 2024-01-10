@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+* {
+    font-family: "exo";
+}
+
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: between;
+}
+
+.navigation-menu li {
+    margin: 0px 10px;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #222
+}
+
+.mobile-navigation-menu {
+    list-style: none;
+}
+
+.mobile-navigation-menu li {
+    margin-top: 20px;
+    color: #222;
+    font-weight: bold;
+}
+
+.mobile-navigation-menu li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.save-story {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #222;
+    border: 1.5px solid #3e0753;
+    font-weight: bolder;
+    font-size: larger;
+    color: #3e0753
+}
+
+.listt:hover {
+    background-color: rgb(245 64 107);
+    color: white;
+    border-radius: 20px;
+}
